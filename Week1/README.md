@@ -15,12 +15,3 @@ This week focuses on mastering Infrastructure as Code (IaC) principles and build
 
 ---
 
-## 📁 Folder Structure
-
-week1/
-├── README.md                     ← Summary of Week 1 (this file)
-├── iac-comparison.md            ← Notes comparing Terraform, CloudFormation, and Bicep
-└── terraform-vpc-module/        ← Reusable Terraform VPC module
-    ├── main.tf                  ← VPC resource definitions
-    ├── variables.tf             ← Input variables for the module
-    ├── outputs.tf               ← Output values (e.g., VPC ID, subnet IDs)
