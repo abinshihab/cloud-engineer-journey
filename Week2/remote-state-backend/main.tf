@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "tf_state" {
   }
 
   lifecycle {
-    prevent_destroy = true
+    prevent_destroy = false
   }
 
   tags = {
