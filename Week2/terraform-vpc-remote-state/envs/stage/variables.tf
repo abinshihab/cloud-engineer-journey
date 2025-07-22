@@ -7,7 +7,7 @@ variable "vpc_cidr" {
 }
 
 variable "environment" {
-  default = "prod"
+  default = "stage"
 }
 variable "public_subnet_cidr" {
   description = "CIDR block for the public subnet"
